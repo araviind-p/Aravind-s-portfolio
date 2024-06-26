@@ -79,6 +79,8 @@ body {
     background-color: #131b1b;
     height: 92dvh;
     justify-content: flex-start;
+    z-index: 2;
+    width: 87%;
   }
 
   .menu-on-mobile {
@@ -182,6 +184,7 @@ body {
 @media (max-width:768px) {
   .footer-links{
     margin-top: 3%;
+    width: 38vw;
   }
 }
 
